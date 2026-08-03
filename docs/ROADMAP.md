@@ -8,7 +8,7 @@
 - [x] 添加 MIT License。
 - [x] 添加项目说明和架构文档。
 - [x] 添加 AI Coding 开发约束。
-- [ ] 配置 Issue 与 Pull Request 模板。
+- [x] 配置 Issue 与 Pull Request 模板。
 - [ ] 配置基础 CI。
 
 完成标准：新贡献者能够理解项目目标、边界和提交规则。
