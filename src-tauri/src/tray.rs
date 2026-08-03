@@ -1,9 +1,21 @@
 //! XzHub system tray module.
+//!
+//! Owns tray lifecycle and user interactions.
 
-pub fn init_tray() {
-    println!("XzHub tray initialized");
-}
+pub struct TrayManager;
 
-pub fn toggle_dashboard() {
-    println!("Toggle dashboard window");
+impl TrayManager {
+    pub fn new() -> Self {
+        Self
+    }
+
+    pub fn initialize(&self) {
+        // TODO: create real Tauri tray icon
+        println!("XzHub tray initialized");
+    }
+
+    pub fn toggle_dashboard(&self) {
+        // TODO: show or hide dashboard window
+        println!("Toggle dashboard window");
+    }
 }
