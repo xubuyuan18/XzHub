@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: Inter, system-ui, sans-serif;
+  background: #18181b;
+  color: #fafafa;
+}
+
+.panel {
+  padding: 24px;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #27272a;
+}
