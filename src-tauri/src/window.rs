@@ -1,9 +1,14 @@
-//! XzHub dashboard window management.
+//! XzHub dashboard floating window management.
 
-pub fn show_dashboard() {
-    println!("Show dashboard window");
-}
+pub struct DashboardWindow;
 
-pub fn hide_dashboard() {
-    println!("Hide dashboard window");
+impl DashboardWindow {
+    pub fn show() {
+        // TODO: connect to Tauri window API
+        println!("Show dashboard window");
+    }
+
+    pub fn hide() {
+        println!("Hide dashboard window");
+    }
 }
